@@ -9,7 +9,7 @@ export default {
   props: ['divType', 'value'],
   data () {
     return {
-      reg: /^\d{1,2}$/
+      reg: /^\d{0,2}$/
     }
   },
   methods: {
